@@ -2,100 +2,79 @@
 
 }
 
-.top-container {
-    background-color: black;
-    height: 20px;
+h1 {
+    color: white;
 }
 
-#container-black {
-    background-color: black;
+h3 {
+    color: #b7a899;
 }
 
-#container-grey {
-    background-color: #FBF8F5;
+p {
+    color: white;
+    font-family: sans-serif;
 }
 
-.logo {
-    height: 100px;
+.container-fluid {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
 }
 
-.navigation-placeholder {
-    float:right;
+#background-placeholder {
+    background-image: url('../Images/backgroundImage.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 740px;
+    margin: 0 auto;
+    border-bottom: white 1px solid;
 }
 
-.navigation-placeholder ul li {
+#black-bg-header {    
+   background-color: rgba(0, 0, 0, 0.5);
+   height: 100px;
+   text-align: center;
+   padding: 25px;
+}
+
+#navigation-placeholder ul li {
     display: inline-block;
-    padding: 15px;
-    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.nav-links a:link {
+    font-family: sans-serif;
+    color: white;
+    font-size: 14px;
+}
+
+#logo {
     position: relative;
-    top: 20px;
-    text-transform: uppercase;
-    
+    top: 65px;
+    text-align: center;
 }
 
-.navigation-links-red {
-    color: #8A0707;
+#about-placeholder {
+    background-color: #23232f;
 }
 
-.navigation-placeholder a:link {
-    color: black;
-}
-
-.navigation-placeholder a:hover {
-    border-bottom: 2px solid #8A0707;
-    text-decoration: none;
-}
-
-.social-media-placeholder {
+#about-section-left {
+    text-align: center;
     position: relative;
-    top: 35px;
+    left: -50px;
 }
 
-.social-media-placeholder a:hover {
-    opacity:1;
+#picture-self {
+    position: relative;
+    top: 15px;
 }
 
-.social-media-placeholder li {
-    display: inline-block;
+.about-text {
+    font-size: 16px;
+    margin-top: 35px;
 }
 
-.social-media-icon:hover {
-opacity:0.8;
-}
 
-.social-media-icon {
-    height: 25px;
-    opacity:1
-}
 
-.box-holder {
-    text-align:center;
-}
 
-.bg-red {
-width:100%;
-background-color: red;
-height:100px;    
-}
 
-.bg-blue {
-width:100%;
-background-color: blue;
-height:100px;    
-}
-
-.box-25 {
-    height:200px;
-    width:250px;
-    float:left;
-}
-
-.box-25-wrapper {
-    padding: 0px !important;
-    margin-top: 25px;
-    height: 800px;
-}
-
-#image-placeholder {
-
-}

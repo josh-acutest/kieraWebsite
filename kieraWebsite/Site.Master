@@ -38,51 +38,9 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-        
-        <div class="container-fluid">
-            <div class="top-container">
-<%--                Used to get black border at top--%>
-            </div>
-        </div>
+         
 
-            <div class="container-fluid" id="container-grey">
-                <div class="row">
-                    <div class="col-md-10">
-
-                          <div class="container">
-                                    <div class="row">
-                                        <div class="col-md-1 col-md-offset-1">
-                                                <img class="logo" src="Images/ku_logo2.png" />        
-                                        </div>
-
-                                        <div class="col-md-10">
-                                         <div class="navigation-placeholder">
-                                            <ul>
-                                                <li><a href="#"><span class="navigation-links-red">H</span>ome</a></li>
-                                                <li><a href="#"><span class="navigation-links-red">S</span>ervices</a></li>
-                                                <li><a href="#"><span class="navigation-links-red">S</span>pecials</a></li>
-                                                <li><a href="#"><span class="navigation-links-red">T</span>utorials</a></li>
-                                                <li><a href="#"><span class="navigation-links-red">C</span>ontact</a></li>
-                                           </ul>
-                                        </div>
-                                       </div>
-                                </div>
-                                </div>
-                        </div>
-                  
-                      <div class="col-md-2">
-                        <ul class="social-media-placeholder">
-                            <li><a href="#"><img class="social-media-icon" src="Images/facebook_logo.png" /></a></li>
-                            <li><a href="#"><img class="social-media-icon" src="Images/twitter_logo.png" /></a></li>
-                            <li><a href="#"><img class="social-media-icon" src="Images/linkedIn_logo.png" /></a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        
-        
-                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
         
                     </asp:ContentPlaceHolder>
     </form>
