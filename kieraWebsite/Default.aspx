@@ -45,11 +45,44 @@
                        Sed tempor tristique neque, gravida vehicula turpis rutrum quis.
                        Maecenas euismod quam ex, eget efficitur nunc ultricies vitae. Suspendisse commodo ultricies porta.
                     </p>
+                    <p class="about-text">Nullam posuere, ante ac fermentum condimentum, metus est feugiat purus, in auctor odio nunc sed erat.
+                       Morbi et nulla sit amet elit hendrerit dictum et at erat.
+                       Sed tempor tristique neque, gravida vehicula turpis rutrum quis.
+                       Maecenas euismod quam ex, eget efficitur nunc ultricies vitae. Suspendisse commodo ultricies porta.
+                    </p>
                 </div>
           </div>
-        </div>
-    </div>    
-        
+       </div>
+    </div>
+    
+    <div class="container-fluid" id="black-background">
+        <div class="container" id="pricing-table">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Pricing</h1>
+
+
+                       <div class="row">
+                            <div class="col-md-4">
+                                <div class="price-box">
+                                    <h3 style="color:#232364; font-weight:800;">Basic Package</h3>
+                                </div>
+                            </div>
+                        
+
+                            <div class="col-md-4">
+                                <div class="price-box"></div>
+                            </div>
+                        
+                       
+                            <div class="col-md-4">
+                                <div class="price-box"></div>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+        </div>    
+   </div>     
 
     
 
