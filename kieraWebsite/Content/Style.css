@@ -8,11 +8,11 @@
 }
 
 h1 {
-    color: white;
+    color: #D41740;
 }
 
 h3 {
-    color: #b7a899;
+    color: #c5a87e;
 }
 
 p {
@@ -29,15 +29,15 @@ p {
     margin: 0 auto;
     border-bottom: white 2px solid;
     background-color: #23232f;
+    position: relative;
 }
 
 .bg-image {
-    z-index: -1;
 }
 
 #black-bg-header {    
    background-color: rgba(0, 0, 0, 0.5);
-   height: 100px;
+   height: 75px;
    text-align: center;
    padding: 25px;
    position: absolute;
@@ -47,24 +47,34 @@ p {
 
 #navigation-placeholder ul li {
     display: inline-block;
-    padding: 20px;
-    font-weight: 600;
+    padding: 10px 20px;
+    font-weight: 300;
 }
 
 .nav-links a:link {
     font-family: sans-serif;
-    color: white;
+    color: #ffffff;
     font-size: 14px;
 }
 
-#logo {
-    position: relative;
-    top: 65px;
+.nav-links a:hover {
+    color: #D41740;
+    text-decoration: none;
+}
+
+#logo-placeholder {
     text-align: center;
+    position: absolute;
+    top: 250px;
+    min-height: 400px;
+}
+
+#logo {
+    
 }
 
 #about-placeholder {
-    background-color: #23232f;
+    background-color: #ffffff;
     border-bottom: 2px solid white;
 }
 
@@ -72,6 +82,10 @@ p {
     text-align: center;
     position: relative;
     left: -50px;
+}
+
+#about-section-left h1 {
+    font-weight: 600;
 }
 
 #picture-self {
@@ -82,6 +96,7 @@ p {
 .about-text {
     font-size: 16px;
     margin-top: 35px;
+    color: #353535;
 }
 
 
@@ -95,19 +110,36 @@ p {
     height: 500px;
     background-color: yellow;
     margin: 0 auto;
+    padding: 10px;
 }
 
 .price-box {
     height: 500px;
-    background-color: #9C9F84;
-    border: 2px solid red;
+    background-color: #23232f;
+    border: 2px solid #666666;
+    margin: 5px 0 5px 0;
 }
 
 .price-box h3 {
-    color: #232364;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 300;
 }
 
 #black-background {
-    background-color: black;
+    background-color: #23232f;
+}
+
+.pound-sterling {
+    font-size: 25px;
+    vertical-align: top;
+}
+
+.cost {
+    font-size:60px;
+    vertical-align: middle;
+}
+
+.mo-text {
+    font-size: 30px;
+    vertical-align: bottom;
 }
