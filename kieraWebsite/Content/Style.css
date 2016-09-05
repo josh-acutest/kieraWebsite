@@ -26,13 +26,13 @@ p {
 }
 
 #background-placeholder {
-    background-image: url('../Images/backgroundImage.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 740px;
     margin: 0 auto;
     border-bottom: white 2px solid;
     background-color: #23232f;
+}
+
+.bg-image {
+    z-index: -1;
 }
 
 #black-bg-header {    
@@ -40,6 +40,9 @@ p {
    height: 100px;
    text-align: center;
    padding: 25px;
+   position: absolute;
+   top: 0px;
+   width: 100%;
 }
 
 #navigation-placeholder ul li {
@@ -96,11 +99,15 @@ p {
 
 .price-box {
     height: 500px;
-    background-color: palevioletred;
+    background-color: #9C9F84;
     border: 2px solid red;
+}
+
+.price-box h3 {
+    color: #232364;
+    font-weight: 700;
 }
 
 #black-background {
     background-color: black;
 }
-

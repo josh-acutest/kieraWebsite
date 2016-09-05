@@ -3,6 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="container-fluid" id="background-placeholder">
+        <img src="Images/backgroundImage.png" class="bg-image"/>
         <div class="container-fluid" id="black-bg-header">
             <div class="container">
                 <div class="row">
@@ -65,18 +66,22 @@
                        <div class="row">
                             <div class="col-md-4">
                                 <div class="price-box">
-                                    <h3 style="color:#232364; font-weight:800;">Basic Package</h3>
+                                    <h3>Basic Package</h3>
                                 </div>
                             </div>
                         
 
                             <div class="col-md-4">
-                                <div class="price-box"></div>
+                                <div class="price-box">
+                                    <h3>Advanced Package</h3>
+                                </div>
                             </div>
                         
                        
                             <div class="col-md-4">
-                                <div class="price-box"></div>
+                                <div class="price-box">
+                                    <h3>Ultimate Package</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
