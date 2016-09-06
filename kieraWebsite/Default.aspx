@@ -2,7 +2,22 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--http://fusionhairandbeautysalon.co.uk/services/--%>
-    <div class="container-fluid" id="background-placeholder">
+   <div class="container-fluid" id="red-block">
+       <div class="container">
+         
+             <div class="social-media-right">
+                  <img id="max-wid" src="Images/facebook_logo.png" />
+                  <img id="max-wid" src="Images/twitter_logo.png" />
+             </div>  
+
+             <p>
+               <span class="red-block-text">KU Makeup</span>
+             </p>    
+       </div>
+   </div>
+
+    
+     <div class="container-fluid" id="background-placeholder">
         <img src="Images/backgroundImage.png" class="img-responsive" />
         <div class="container-fluid" id="black-bg-header">
             <div class="container">
@@ -25,6 +40,13 @@
                 <img src="Images/ku_logo_1.png" id="ku-logo"/>
             </div>
         </div>
+
+         <div class="row">
+             <div class="col-md-12 col-sm-12 col-xs-12" id="strapline">
+                 <h3>Professional. Makeup. Artist.</h3>
+             </div>
+         </div>
+
 
    </div>
     <%--End of header section--%>
@@ -60,18 +82,23 @@
         <div class="container" id="pricing-table">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Pricing</h1>
-
+                    <h2>Pricing</h2>
 
                        <div class="row">
                             <div class="col-md-4">
                                 <div class="price-box">
                                     <h3>Basic Package</h3>
+                                    
                                     <p>
                                     <span class="pound-sterling">£</span>
                                     <span class="cost">29.99</span>
                                     <span class="mo-text">/mo</span>
                                     </p>
+
+                                    <p>
+                                    <span class="hours-text">Up to 3 hours</span>
+                                    </p>
+                                   
                                 </div>
                             </div>
                         
@@ -79,11 +106,17 @@
                             <div class="col-md-4">
                                 <div class="price-box">
                                     <h3>Advanced Package</h3>
+                                    
                                     <p>
                                     <span class="pound-sterling">£</span>
                                     <span class="cost">49.99</span>
                                     <span class="mo-text">/mo</span>
                                     </p>
+
+                                    <p>
+                                    <span class="hours-text">Up to 6 hours</span>
+                                    </p>
+
                                 </div>
                             </div>
                         
@@ -91,11 +124,17 @@
                             <div class="col-md-4">
                                 <div class="price-box">
                                     <h3>Ultimate Package</h3>
+                                    
                                     <p>
                                     <span class="pound-sterling">£</span>
                                     <span class="cost">69.99</span>
                                     <span class="mo-text">/mo</span>
                                     </p>
+
+                                    <p>
+                                    <span class="hours-text">Up to 9 hours</span>
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
