@@ -60,29 +60,29 @@
           <div class="row">
             <div class="col-md-4"> 
                 <div class="services-box">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=320&h=200" />
+                    <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Decide on your masterpiece</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Enquire</h3></div>
+                    <div class="enquiry-button"><h3>Find out more</h3></div>
                 </div>
             </div>
             
                 
             <div class="col-md-4"> 
                 <div class="services-box">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=200&h=200" />
+                    <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Complete your makeover</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Enquire</h3></div>
+                    <div class="enquiry-button"><h3>Find out more</h3></div>
                 </div>
             </div>
 
             <div class="col-md-4"> 
                 <div class="services-box">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=200&h=200" />
+                    <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Review the service</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Enquire</h3></div>
+                    <div class="enquiry-button"><h3>Find out more</h3></div>
                 </div>
             </div>
             
