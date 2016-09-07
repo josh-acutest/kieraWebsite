@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-    color: #c5a87e;
+    color: #232364;
 }
 
 p {
@@ -23,6 +23,7 @@ p {
 #red-block {
     height: 25px;
     background-color: #D41740;
+    opacity: 0.8;
 }
 
 .red-block-text {
@@ -46,7 +47,7 @@ p {
 
 #background-placeholder {
     margin: 0 auto;
-    border-bottom: white 2px solid;
+    border-bottom: #FFB6C1 7px solid;
     background-color: #23232f;
     position: relative;
 }
@@ -58,7 +59,6 @@ p {
    background-color: rgba(0, 0, 0, 0.5);
    height: 75px;
    text-align: center;
-   padding: 20px;
    position: absolute;
    top: 0px;
    width: 100%;
@@ -66,14 +66,18 @@ p {
 
 #navigation-placeholder ul li {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     font-weight: 400;
+}
+
+.nav-links {
+    text-align: center;
 }
 
 .nav-links a:link {
     font-family: sans-serif;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .nav-links a:hover {
@@ -88,34 +92,87 @@ p {
     min-height: 400px;
 }
 
-#logo {
-    
-}
-
 #strapline {
     position:absolute;
-    top: 450px;
+    top: 65%;
     text-align: center;
 }
 
 #strapline h3 {
-    color: #ffffff;
+    color: #FFB6C1;
     font-weight: 700;
 }
+
+.services-placeholder {
+    background-color: #23232f;
+    height: 1000px;
+    max-height: 1350px;
+    text-align: center;
+    border-bottom: 7px solid #FFB6C1;
+}
+
+.services-placeholder h3 {
+    color: #ffffff;
+    font-size: 26px;
+ 
+}
+
+.services-box {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 400px;
+    
+}
+
+.services-box h4 {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 30px 0; 
+}
+
+.services-box p {
+    color: gray;
+}
+
+.enquiry-button {
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+}
+
+.enquiry-button h3 {
+    color: white;
+    font-size: 20px;
+}
+
+@keyframes changeColor
+{
+    from {background-color: grey;}
+    to {background-color: #FFB6C1;}
+}
+
+.enquiry-button:hover {
+animation-name: changeColor;
+animation-duration: 1s;
+}
+
 #about-placeholder {
-    background-color: #190000;
-    border-bottom: 2px solid white;
+    background-color: #ffffff;
+    border-bottom: #FFB6C1 7px solid;
     box-shadow: 10px black;
 }
 
 #about-section-left {
     text-align: center;
-    position: relative;
-    left: -50px;
+    position: relative;   
 }
 
 #about-section-left h1 {
     font-weight: 600;
+}
+
+#about-section-left h3 {
+    color: grey;
 }
 
 #picture-self {
@@ -124,7 +181,7 @@ p {
 }
 
 .about-text {
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 35px;
     color: #353535;
 }
@@ -133,12 +190,12 @@ p {
 #pricing-table {
     background-color: #23232f;
     text-align: center;
-    margin: 0 auto;
 }
 
 #pricing-table h2 {
-    color: #666666;
+    color: #ffffff;
     text-transform: uppercase;
+    margin-top: 50px;
 }
 
 .pricing-box-wrapper {
@@ -151,8 +208,13 @@ p {
 .price-box {
     height: 500px;
     background-color: #23232f;
-    border: 2px solid #666666;
+    border: 3px solid #FFB6C1;
     margin: 5px 0 5px 0;
+}
+
+.price-box:hover {
+    border-color: #ffffff;
+    box-shadow: 0px 2px 15px 0px #FFB6C1  inset;
 }
 
 .price-box h3 {
