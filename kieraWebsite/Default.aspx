@@ -60,10 +60,10 @@
           <div class="row">
             <div class="col-md-4"> 
                 <div class="services-box">
-                    <img class="img-responsive" src="Images/model_image_1.png" />
+                    <img class="img-responsive" src="Images/ku-image2.png" />
                     <h4>Decide on your masterpiece</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Find out more</h3></div>
+                   <a href="#"><div class="enquiry-button"><h3>Find out more</h3></div></a>
                 </div>
             </div>
             
@@ -73,16 +73,16 @@
                     <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Complete your makeover</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Find out more</h3></div>
+                    <a href="#"><div class="enquiry-button"><h3>Find out more</h3></div></a>
                 </div>
             </div>
 
             <div class="col-md-4"> 
                 <div class="services-box">
-                    <img class="img-responsive" src="Images/model_image_1.png" />
+                    <img class="img-responsive" src="Images/ku-image3.png" />
                     <h4>Review the service</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                    <div class="enquiry-button"><h3>Find out more</h3></div>
+                   <a href="#"><div class="enquiry-button"><h3>Find out more</h3></div></a>
                 </div>
             </div>
             
@@ -188,6 +188,12 @@
                                     <span class="hours-text">Up to 9 hours</span>
                                     </p>
 
+                                    <ul class="price-box-listblocks">
+                                        <li>Block 1</li>
+                                        <li>Block 2</li>
+                                        <li>Block 3</li>
+                                    </ul>
+
                                 </div>
                             </div>
                         </div>
@@ -196,6 +202,15 @@
         </div>    
    </div>     
 
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="contact-form">
+                <h1>Not sure? Get in touch.</h1>
+            </div>
+        </div>
+    </div>
     
 
 </asp:Content>

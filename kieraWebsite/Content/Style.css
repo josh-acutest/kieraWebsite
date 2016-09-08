@@ -52,8 +52,6 @@ p {
     position: relative;
 }
 
-.bg-image {
-}
 
 #black-bg-header {    
    background-color: rgba(0, 0, 0, 0.5);
@@ -107,7 +105,7 @@ p {
 .services-placeholder {
     background-color: #23232f;
     height: auto;
-    max-height: 1350px;
+    max-height: 1550px;
     text-align: center;
     border-bottom: 7px solid #FFB6C1;
     padding: 10px 0 30px 0;
@@ -124,6 +122,7 @@ p {
     border-radius: 5px;
     height: 450px;
     position: relative;
+    overflow: hidden;
 }
 
 .services-box img {
@@ -173,12 +172,12 @@ p {
     background-color: grey;
     position: absolute;
     bottom: 0px;
+    text-align: center;
 }
 
 .enquiry-button h3 {
     color: white;
-    font-size: 2s0px;
-    vertical-align: central;
+    font-size: 20px;
 }
 
 @keyframes changeColor
@@ -247,7 +246,9 @@ p {
     background-color: #23232f;
     border: 3px solid #FFB6C1;
     margin: 5px 0 5px 0;
+    
 }
+
 
 .price-box:hover {
     border-color: #ffffff;
@@ -257,6 +258,10 @@ p {
 .price-box h3 {
     color: #ffffff;
     font-weight: 300;
+}
+
+.price-box ul {
+    padding: 0 !important;
 }
 
 #black-background {
@@ -281,4 +286,15 @@ p {
 .hours-text {
     color: #a0a0a0;
     font-size: 20px;
+}
+
+.price-box-listblocks li {
+    display: block;
+    text-decoration: none;
+    padding: 0 0 0 0;
+    height: 30px;
+    width: 100%;
+    background-color: yellow;
+    list-style-type: none;
+    margin-top: 10px;
 }
