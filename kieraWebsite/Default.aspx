@@ -63,7 +63,7 @@
                     <img class="img-responsive" src="Images/ku-image2.png" />
                     <h4>Decide on your masterpiece</h4>
                     <p>Sed tempor tristique neque, gravida vehicula turpis rutrum quis.</p>
-                   <a href="#"><div class="enquiry-button"><h3>Find out more</h3></div></a>
+                   <a href="#" data-toggle="modal" data-target="#myModal"><div class="enquiry-button"><h3>Find out more</h3></div></a>
                 </div>
             </div>
             
@@ -217,6 +217,32 @@
         <div class="container">
             <div class="contact-form">
                 <h1>Not sure? Get in touch.</h1>
+
+                <!-- Trigger the modal with a button -->
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
             </div>
         </div>
     </div>
