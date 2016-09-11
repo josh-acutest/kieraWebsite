@@ -108,7 +108,7 @@
         <div class="container">
            <div class="row">
                 <div class="col-md-4" id="about-section-left">
-                    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97350&w=350&h=350" id="picture-self"/>
+                    <img src="Images/kiera_image.png" id="picture-self"/>
                     <h1>Kiera Ussher</h1>
                     <h3>Makeup Artist</h3>
                 </div>
@@ -152,6 +152,11 @@
                                     <span class="hours-text">Up to 3 hours</span>
                                     </p>
                                    
+                                    <ul class="price-box-listblocks">
+                                        <li>Block 1</li>
+                                        <li>Block 2</li>
+                                        <li>Block 3</li>
+                                    </ul>
                                 </div>
                             </div>
                         
@@ -170,6 +175,11 @@
                                     <span class="hours-text">Up to 6 hours</span>
                                     </p>
 
+                                    <ul class="price-box-listblocks">
+                                        <li>Block 1</li>
+                                        <li>Block 2</li>
+                                        <li>Block 3</li>
+                                    </ul>
                                 </div>
                             </div>
                         
@@ -193,7 +203,6 @@
                                         <li>Block 2</li>
                                         <li>Block 3</li>
                                     </ul>
-
                                 </div>
                             </div>
                         </div>

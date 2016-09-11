@@ -64,7 +64,7 @@ p {
 
 #navigation-placeholder ul li {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 25px 10px;
     font-weight: 400;
     text-align: center;
 }
@@ -262,6 +262,7 @@ p {
 
 .price-box ul {
     padding: 0 !important;
+    margin-top: 80px;
 }
 
 #black-background {
@@ -294,7 +295,14 @@ p {
     padding: 0 0 0 0;
     height: 30px;
     width: 100%;
-    background-color: yellow;
+    background-color: grey;
     list-style-type: none;
     margin-top: 10px;
+}
+
+.contact-form {
+    height: 1400px;
+    width: 100%;
+    background-color: #a70d2f;
+    border: 25px solid #000000;
 }
