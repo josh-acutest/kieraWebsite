@@ -67,10 +67,15 @@ p {
     padding: 25px 10px;
     font-weight: 400;
     text-align: center;
+    color: #ffffff;
 }
 
 .nav-links {
     margin: 0 auto;
+}
+
+.nav-links li {
+    color: #ffffff;
 }
 
 .nav-links a:link {
@@ -114,7 +119,6 @@ p {
 .services-placeholder h3 {
     color: #ffffff;
     font-size: 26px;
- 
 }
 
 .services-box {
@@ -245,8 +249,7 @@ p {
     height: 500px;
     background-color: #23232f;
     border: 3px solid #FFB6C1;
-    margin: 5px 0 5px 0;
-    
+    margin: 5px 0 5px 0;   
 }
 
 

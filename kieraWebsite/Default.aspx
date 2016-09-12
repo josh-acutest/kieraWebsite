@@ -58,7 +58,7 @@
                 <h3>What do we do?</h3>
         
           <div class="row">
-            <div class="col-md-4"> 
+            <div class="col-md-4 col-sm-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/ku-image2.png" />
                     <h4>Decide on your masterpiece</h4>
@@ -68,7 +68,7 @@
             </div>
             
                 
-            <div class="col-md-4"> 
+            <div class="col-md-4 col-sm-4" > 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Complete your makeover</h4>
@@ -77,7 +77,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4"> 
+            <div class="col-md-4 col-sm-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/ku-image3.png" />
                     <h4>Review the service</h4>
@@ -138,7 +138,7 @@
                     <h2>Pricing</h2>
 
                        <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <div class="price-box">
                                     <h3>Basic Package</h3>
                                     
@@ -161,7 +161,7 @@
                             </div>
                         
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <div class="price-box">
                                     <h3>Advanced Package</h3>
                                     
@@ -184,7 +184,7 @@
                             </div>
                         
                        
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4">
                                 <div class="price-box">
                                     <h3>Ultimate Package</h3>
                                     
