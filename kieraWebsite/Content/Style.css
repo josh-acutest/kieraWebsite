@@ -95,6 +95,10 @@ p {
     top: 30%;
     min-height: 400px;
 }
+ 
+#ku-logo {
+    margin: 0 auto;
+}
 
 #strapline {
     position:absolute;
@@ -255,7 +259,7 @@ p {
 
 .price-box:hover {
     border-color: #ffffff;
-    box-shadow: 0px 2px 15px 0px #FFB6C1  inset;
+    box-shadow: 0px 2px 15px 0px #FFB6C1;
 }
 
 .price-box h3 {

@@ -37,15 +37,16 @@
 
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12" id="logo-placeholder">
-                <img src="Images/ku_logo_1.png" id="ku-logo"/>
+                <img src="Images/ku_logo_1.png" class="img-responsive" id="ku-logo"/>
+                 <h3>Professional. Makeup. Artist.</h3>
             </div>
         </div>
 
-         <div class="row">
+         <%--<div class="row">
              <div class="col-md-12 col-sm-12 col-xs-12" id="strapline">
                  <h3>Professional. Makeup. Artist.</h3>
              </div>
-         </div>
+         </div>--%>
 
 
    </div>
@@ -143,13 +144,13 @@
                                     <h3>Basic Package</h3>
                                     
                                     <p>
-                                    <span class="pound-sterling">£</span>
-                                    <span class="cost">29.99</span>
-                                    <span class="mo-text">/mo</span>
+                                        <span class="pound-sterling">£</span>
+                                        <span class="cost">29.99</span>
+                                        <span class="mo-text">/mo</span>
                                     </p>
 
                                     <p>
-                                    <span class="hours-text">Up to 3 hours</span>
+                                        <span class="hours-text">Up to 3 hours</span>
                                     </p>
                                    
                                     <ul class="price-box-listblocks">
@@ -166,13 +167,13 @@
                                     <h3>Advanced Package</h3>
                                     
                                     <p>
-                                    <span class="pound-sterling">£</span>
-                                    <span class="cost">49.99</span>
-                                    <span class="mo-text">/mo</span>
+                                        <span class="pound-sterling">£</span>
+                                        <span class="cost">49.99</span>
+                                        <span class="mo-text">/mo</span>
                                     </p>
 
                                     <p>
-                                    <span class="hours-text">Up to 6 hours</span>
+                                        <span class="hours-text">Up to 6 hours</span>
                                     </p>
 
                                     <ul class="price-box-listblocks">
@@ -189,13 +190,13 @@
                                     <h3>Ultimate Package</h3>
                                     
                                     <p>
-                                    <span class="pound-sterling">£</span>
-                                    <span class="cost">69.99</span>
-                                    <span class="mo-text">/mo</span>
+                                        <span class="pound-sterling">£</span>
+                                        <span class="cost">69.99</span>
+                                        <span class="mo-text">/mo</span>
                                     </p>
 
                                     <p>
-                                    <span class="hours-text">Up to 9 hours</span>
+                                        <span class="hours-text">Up to 9 hours</span>
                                     </p>
 
                                     <ul class="price-box-listblocks">
