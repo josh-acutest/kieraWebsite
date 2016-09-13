@@ -22,12 +22,12 @@
         <div class="container-fluid" id="black-bg-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12" id="navigation-placeholder">
+                    <div class="col-md-12 col-sm-12" id="navigation-placeholder">
                         <ul class="nav-links">
-                            <li><a href="#">Home</a></li>
+                            <li><a href="#here">Home</a></li>
+                            <li><a href="#services">Services</a></li>
                             <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Tutorials</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12" id="logo-placeholder">
                 <img src="Images/ku_logo_1.png" class="img-responsive" id="ku-logo"/>
-                 <h3>Professional. Makeup. Artist.</h3>
+                 <h3 id="strapline">Professional. Makeup. Artist.</h3>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
 <div class="services-placeholder">
     <div class="containder-fluid">
         <div class="container">
-            
+           <a id="services"></a>    
                 <h3>What do we do?</h3>
         
           <div class="row">
@@ -215,9 +215,61 @@
 
 
     <div class="container-fluid">
-        <div class="container">
-            <div class="contact-form">
-                <h1>Not sure? Get in touch.</h1>
+        <div class="contact-form">
+
+            
+            
+    <div class="container">
+        <div class="contact-form-padding">
+            <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="contact-form-wrapper">
+                            <a id="contact"></a>
+                            <asp:TextBox runat="server" ID="fullNameInput" CssClass="contact-form-input" Text="Full name"></asp:TextBox>
+                         </div>
+                    </div>
+
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="contact-form-wrapper">
+                            <asp:TextBox runat="server" CssClass="contact-form-input" ID="emailInput" Text="Email"></asp:TextBox>
+                        </div>
+                    </div>
+                
+                </div>
+                
+
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="contact-form-wrapper">
+                            <asp:TextBox runat="server" TextMode="MultiLine" CssClass="contact-form-input" ID="messageInput" Text="Message"></asp:TextBox>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="row">
+                   <div class="col-md-12">
+                       <div class="submit-button-wrapper">
+                            <button runat="server" class="submit-button" id="userSubmit">SUBMIT</button>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="container-fluid" id="bg-img-test"></div>
+    <div class="bottom-box">
+        <p>Website by Josh.</p>
+    </div>
+
+
+
+
+
 
                 <!-- Trigger the modal with a button -->
 
@@ -244,9 +296,6 @@
 </div>
 
 
-            </div>
-        </div>
-    </div>
-    
+   
 
 </asp:Content>
