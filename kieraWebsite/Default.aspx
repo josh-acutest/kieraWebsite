@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
-
+ 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--http://fusionhairandbeautysalon.co.uk/services/--%>
    <div class="container-fluid" id="red-block">
        <div class="container">
          
              <div class="social-media-right">
-                  <img id="max-wid" src="Images/facebook_logo.png" />
-                  <img id="max-wid" src="Images/twitter_logo.png" />
+                  <img class="max-wid" src="Images/facebook_logo.png" />
+                  <img class="max-wid" src="Images/twitter_logo.png" />
              </div>  
 
              <p>
@@ -158,6 +158,9 @@
                                         <li>Eyebrows</li>
                                         <li>Lips</li>
                                     </ul>
+
+                                    <a href="#"><div class="enquiry-button"><h3>Services</h3></div></a>
+
                                 </div>
                             </div>
                         
@@ -183,6 +186,9 @@
                                         <li>Cheeks</li>
                                         <li>Hair</li>
                                     </ul>
+
+                                    <a href="#"><div class="enquiry-button"><h3>Services</h3></div></a>
+
                                 </div>
                             </div>
                         
@@ -210,7 +216,7 @@
                                         <li>Contour</li>
                                     </ul>
     
-                                 <div class="enquiry-button">Services</div>
+                                 <a href="#"><div class="enquiry-button"><h3>Services</h3></div></a>
                             
                                     
                                     
