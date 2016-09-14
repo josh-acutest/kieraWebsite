@@ -154,9 +154,9 @@
                                     </p>
                                    
                                     <ul class="price-box-listblocks">
-                                        <li>Block 1</li>
-                                        <li>Block 2</li>
-                                        <li>Block 3</li>
+                                        <li>Eyes</li>
+                                        <li>Eyebrows</li>
+                                        <li>Lips</li>
                                     </ul>
                                 </div>
                             </div>
@@ -177,9 +177,11 @@
                                     </p>
 
                                     <ul class="price-box-listblocks">
-                                        <li>Block 1</li>
-                                        <li>Block 2</li>
-                                        <li>Block 3</li>
+                                        <li>Eyes</li>
+                                        <li>Eyebrows</li>
+                                        <li>Lips</li>
+                                        <li>Cheeks</li>
+                                        <li>Hair</li>
                                     </ul>
                                 </div>
                             </div>
@@ -200,11 +202,21 @@
                                     </p>
 
                                     <ul class="price-box-listblocks">
-                                        <li>Block 1</li>
-                                        <li>Block 2</li>
-                                        <li>Block 3</li>
+                                        <li>Eyes</li>
+                                        <li>Eyebrows</li>
+                                        <li>Lips</li>
+                                        <li>Cheeks</li>
+                                        <li>Hair</li>
+                                        <li>Contour</li>
                                     </ul>
-                                </div>
+    
+                                 <div class="enquiry-button">Services</div>
+                            
+                                    
+                                    
+                                    
+                                    
+                                        </div>
                             </div>
                         </div>
                     </div>
@@ -225,14 +237,14 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
                             <a id="contact"></a>
-                            <asp:TextBox runat="server" ID="fullNameInput" CssClass="contact-form-input" Text="Full name"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="fullNameInput" placeholder="Full name" CssClass="contact-form-input"></asp:TextBox>
                          </div>
                     </div>
 
 
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
-                            <asp:TextBox runat="server" CssClass="contact-form-input" ID="emailInput" Text="Email"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="emailInput" placeholder="Email" CssClass="contact-form-input" ></asp:TextBox>
                         </div>
                     </div>
                 
@@ -242,7 +254,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="contact-form-wrapper">
-                            <asp:TextBox runat="server" TextMode="MultiLine" CssClass="contact-form-input" ID="messageInput" Text="Message"></asp:TextBox>
+                            <asp:TextBox runat="server" ID="messageInput" placeholder="Message" TextMode="MultiLine" CssClass="contact-form-input"></asp:TextBox>
                         </div>
                     </div>
                 </div>
@@ -261,11 +273,14 @@
     </div>
 
 
-    <div class="container-fluid" id="bg-img-test"></div>
+    <div class="container-fluid" id="map_img">
+        <img class="img-responsive" src="Images/map2.png" />
+
+   
     <div class="bottom-box">
         <p>Website by Josh.</p>
     </div>
-
+        </div>
 
 
 

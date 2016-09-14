@@ -254,10 +254,13 @@ p {
 
 
 .price-box {
-    height: 500px;
+    height: 575px;
     background-color: #23232f;
     border: 3px solid grey;
-    margin: 5px 0 5px 0;   
+    border-radius: 5px;
+    margin: 5px 0 5px 0;  
+    position: relative;
+    overflow: hidden; 
 }
 
 .price-box:hover {
@@ -300,14 +303,26 @@ p {
 }
 
 .price-box-listblocks li {
-    display: block;
+    /*display: block;*/
     text-decoration: none;
     padding: 0 0 0 0;
     height: 30px;
     width: 100%;
-    background-color: grey;
+    /*background-color: grey;*/
     list-style-type: none;
     margin-top: 10px;
+    color: #a0a0a0;
+    font-size: 16px;
+}
+
+.select-button {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    display: block;
+    bottom: 0px;
+    position: relative;
+    top: 15px;
 }
 
 .contact-form {
@@ -344,24 +359,33 @@ p {
 
 .submit-button {
     padding: 10px 20px;
-    background-color: #D41740;
+    background-color: gray;
     color: #ffffff;
     font-weight: 700;
-    border: 1px solid #D41740;
+    border: 1px solid #FFB6C1;
     border-radius: 5px;
 }
 
 .submit-button:hover {
-    background-color: #d74967;
+
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
-#bg-img-test {
+/*#bg-img-test {
     background-image: url('../Images/map_img.png');
     background-size: contain;
     background-repeat: no-repeat;
     height: 306px;
     opacity: 0.7;
     box-shadow: 0 2px 5px 0 black inset;
+}*/
+
+#map_img {
+    opacity: 0.7;
+    box-shadow: 0 5px 5px 0 inset !important;
+    position: relative;
 }
 
 .bottom-box {
@@ -369,6 +393,9 @@ p {
     height:25px;
     background-color: #d74967;
     text-align: center;
+    box-shadow: 0 2px 5px 0 inset !important;
+    position: absolute;
+    bottom: 0px;
 }
 
 .bottom-box p {
