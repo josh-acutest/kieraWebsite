@@ -40,7 +40,7 @@ p {
     float: right;
 }
 
-#max-wid {
+.max-wid {
     width: 25px;
 }
 
@@ -243,7 +243,6 @@ p {
 #pricing-table {
     background-color: #23232f;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 #pricing-table h2 {
@@ -261,6 +260,7 @@ p {
     margin: 5px 0 5px 0;  
     position: relative;
     overflow: hidden; 
+    margin-bottom: 50px;
 }
 
 .price-box:hover {
@@ -393,9 +393,9 @@ p {
     height:25px;
     background-color: #d74967;
     text-align: center;
-    box-shadow: 0 2px 5px 0 inset !important;
     position: absolute;
     bottom: 0px;
+    padding-right: 5px;
 }
 
 .bottom-box p {
