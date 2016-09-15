@@ -1,7 +1,6 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
+﻿<%@Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
  
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <%--http://fusionhairandbeautysalon.co.uk/services/--%>
    <div class="container-fluid" id="red-block">
        <div class="container">
          
@@ -282,11 +281,10 @@
     <div class="container-fluid" id="map_img">
         <img class="img-responsive" src="Images/map2.png" />
 
-   
-    <div class="bottom-box">
-        <p>Website by Josh.</p>
-    </div>
+        <div class="bottom-box">
+            <p>Website by Josh.</p>
         </div>
+    </div>
 
 
 
