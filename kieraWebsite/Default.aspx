@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
+﻿<%@ Page Title="KU Makeup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
  
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <%--http://fusionhairandbeautysalon.co.uk/services/--%>
@@ -26,7 +26,7 @@
                         <ul class="nav-links">
                             <li><a href="#here">Home</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
@@ -104,7 +104,7 @@
 
 
 
-
+     <a id="portfolio"></a>
     <div class="container-fluid" id="about-placeholder">
         <div class="container">
            <div class="row">
@@ -250,7 +250,7 @@
 
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
-                            <asp:TextBox runat="server" ID="emailInput" placeholder="Email" CssClass="contact-form-input" ></asp:TextBox>
+                            <asp:TextBox runat="server" ID="emailInput" textMode="Email" placeholder="Email" CssClass="contact-form-input" ></asp:TextBox>
                         </div>
                     </div>
                 
@@ -268,7 +268,7 @@
                <div class="row">
                    <div class="col-md-12">
                        <div class="submit-button-wrapper">
-                            <button runat="server" class="submit-button" id="userSubmit">SUBMIT</button>
+                            <button runat="server" class="submit-button" id="userSubmit" onclick="userSubmit_Click">SUBMIT</button>
                        </div>
                    </div>
                </div>
@@ -286,6 +286,10 @@
     <div class="bottom-box">
         <p>Website by Josh.</p>
     </div>
+
+
+
+
         </div>
 
 
@@ -303,7 +307,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Some content here</h4>
       </div>
       <div class="modal-body">
         <p>Some text in the modal.</p>
