@@ -5600,14 +5600,23 @@ button.close {
   -webkit-appearance: none;
 }
 
+
+body.modal-open {
+overflow-y: scroll;
+padding-right: 0 !important;
+}
+
+
 .modal-open {
   overflow: hidden;
+
 }
 
 body.modal-open,
 .modal-open .navbar-fixed-top,
 .modal-open .navbar-fixed-bottom {
-  margin-right: 15px;
+  margin-right: px;
+
 }
 
 .modal {
