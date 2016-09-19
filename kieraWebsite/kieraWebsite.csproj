@@ -184,6 +184,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\backgroundImage.png" />
     <Content Include="Images\facebook_logo.png" />
+    <Content Include="Images\favicon-16x16.png" />
     <Content Include="Images\img-test.png" />
     <Content Include="Images\kiera_image.png" />
     <Content Include="Images\ku-image2.png" />
