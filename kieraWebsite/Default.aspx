@@ -239,10 +239,12 @@
     <div class="container">
         <div class="contact-form-padding">
             <div class="row">
+                <a id="contact"></a>
+
+
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
-                            <a id="contact"></a>
-                            <asp:TextBox runat="server" ID="fullNameInput" placeholder="Full name" CssClass="contact-form-input"></asp:TextBox>
+                             <asp:TextBox runat="server" ID="fullNameInput" placeholder="Full name" CssClass="contact-form-input"></asp:TextBox>
                          </div>
                     </div>
 
