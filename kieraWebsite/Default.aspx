@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ﻿<%@Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
-=======
-﻿<%@ Page Title="KU Makeup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
->>>>>>> origin/master
  
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    <div class="container-fluid" id="red-block">
@@ -285,19 +281,14 @@
     <div class="container-fluid" id="map_img">
         <img class="img-responsive" src="Images/map2.png" />
 
-<<<<<<< HEAD
+
         <div class="bottom-box">
             <p>Website by Josh.</p>
-=======
    
-    <div class="bottom-box">
-        <p>Website by Josh.</p>
-    </div>
 
 
 
 
->>>>>>> origin/master
         </div>
     </div>
 
