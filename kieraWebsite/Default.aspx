@@ -1,7 +1,10 @@
-﻿<%@Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
+﻿<%@Page Title="KU Makeup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
  
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-   <div class="container-fluid" id="red-block">
+ 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <div class="container-fluid" id="red-block">
        <div class="container">
          
              <div class="social-media-right">
@@ -10,12 +13,15 @@
              </div>  
 
              <p>
+               <img class="red-block-text-img" src="Images/ku_logo_1.png" />
                <span class="red-block-text">KU Makeup</span>
              </p>    
        </div>
    </div>
 
-    
+    <a href="#here"><div class="scroll-top">To top</div></a>
+
+
      <div class="container-fluid" id="background-placeholder">
         <img src="Images/backgroundImage.png" class="img-responsive" />
         <div class="container-fluid" id="black-bg-header">
@@ -251,9 +257,6 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
                              <asp:TextBox runat="server" ID="fullNameInput" placeholder="Full name" CssClass="contact-form-input"></asp:TextBox>
-                            
-
-                            
                          </div>
                     </div>
 

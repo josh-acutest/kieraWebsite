@@ -21,15 +21,15 @@ namespace kieraWebsite
 
             string CustomerEmail = emailInput.Text;
             string CustomerName = fullNameInput.Text;
-
+            string CustomerMessage = messageInput.Text;
 
 
 
             MailMessage myMessage = new MailMessage();
             myMessage.Subject = "KU-Makeup Enquiry";
-            myMessage.Body = "Thank you for your recent enquiry, you will be contacted shortly.";
+            myMessage.Body = "Thank you for your recent enquiry, you will be contacted shortly." + CustomerMessage;
             myMessage.From = new MailAddress("josh@jcrz.co.uk", "Kiera Ussher");
-            myMessage.To.Add(new MailAddress(CustomerEmail, CustomerName));
+            myMessage.To.Add(new MailAddress("josh@, CustomerName));
 
             SmtpClient mySmtpClient = new SmtpClient();
             mySmtpClient.Send(myMessage);
