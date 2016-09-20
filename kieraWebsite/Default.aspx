@@ -37,9 +37,15 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12" id="logo-placeholder">
                 <img src="Images/ku_logo_1.png" class="img-responsive" id="ku-logo"/>
-                 <h3 id="strapline">Professional. Makeup. Artist.</h3>
+                <div class="strapline-wrapper">
+                 <ul class="strapline-list" id="strapline">
+                     <li>Professional.</li>
+                     <li>Makeup.</li>
+                     <li>Artist.</li>
+                 </ul>
+                </div>
             </div>
-        </div>
+         </div>
 
          <%--<div class="row">
              <div class="col-md-12 col-sm-12 col-xs-12" id="strapline">
@@ -245,6 +251,9 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="contact-form-wrapper">
                              <asp:TextBox runat="server" ID="fullNameInput" placeholder="Full name" CssClass="contact-form-input"></asp:TextBox>
+                            
+
+                            
                          </div>
                     </div>
 
