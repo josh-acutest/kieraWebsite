@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <a id="home"></a>
       <div class="container-fluid" id="red-block">
        <div class="container">
          
@@ -13,13 +13,13 @@
              </div>  
 
              <p>
-               <img class="red-block-text-img" src="Images/ku_logo_1.png" />
+               
                <span class="red-block-text">KU Makeup</span>
              </p>    
        </div>
    </div>
-
-    <a href="#here"><div class="scroll-top">To top</div></a>
+    
+    <a href="#home"><div class="scroll-top">To top</div></a>
 
 
      <div class="container-fluid" id="background-placeholder">
@@ -29,7 +29,8 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12" id="navigation-placeholder">
                         <ul class="nav-links">
-                            <li><a href="#here">Home</a></li>
+                            <li><img class="img-responsive" id="red-block-text-img" src="Images/ku_logo_1.png" /></li>
+                            <li><a href="#home">Home</a></li>
                             <li><a href="#services">Services</a></li>
                             <li><a href="#portfolio">Portfolio</a></li>
                             <li><a href="#contact">Contact</a></li>
@@ -80,7 +81,7 @@
             </div>
             
                 
-            <div class="col-md-4 col-sm-4" > 
+            <div class="col-md-4 col-sm-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Complete your makeover</h4>
@@ -281,7 +282,7 @@
                <div class="row">
                    <div class="col-md-12">
                        <div class="submit-button-wrapper">
-                            <button runat="server" class="submit-button" id="userSubmit" onclick="userSubmit_Click">SUBMIT</button>
+                            <asp:Button runat="server" class="submit-button" id="userSubmit" OnClick="userSubmit_Click" Text="Submit" />
                        </div>
                    </div>
                </div>
@@ -299,13 +300,14 @@
         <div class="bottom-box">
             <p>Website by Josh.</p>
    
-
+           
 
 
 
         </div>
     </div>
 
+    <div class="map"></div>
 
 
 

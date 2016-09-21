@@ -21,7 +21,12 @@
     <link href="Content/Style.css" rel="stylesheet" />
     <link href="Images/favicon-16x16.png" rel="shortcut icon" type="image/x-icon" />
     <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="http://maps.google.com/maps/api/js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gmap3/7.1.0/gmap3.min.js"></script>
     <script src="Content/StyleJS.js"></script>
+
+
 </head>
 <body>
     <form runat="server">
@@ -53,5 +58,6 @@
         
                     </asp:ContentPlaceHolder>
     </form>
+        
 </body>
 </html>
