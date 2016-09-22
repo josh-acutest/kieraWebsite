@@ -28,7 +28,7 @@ namespace kieraWebsite
             MailMessage myMessage = new MailMessage();
             myMessage.Subject = "KU-Makeup Enquiry";
             myMessage.Body = "Thank you for your recent enquiry, you will be contacted shortly." + CustomerMessage;
-            myMessage.From = new MailAddress("josh@jcrz.co.uk", "Josh Crossley");
+            myMessage.From = new MailAddress("josh@jcrz.co.uk", "KU Makeup");
             myMessage.To.Add(new MailAddress(CustomerEmail, CustomerName));
 
             SmtpClient mySmtpClient = new SmtpClient();

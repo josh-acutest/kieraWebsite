@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="kieraWebsite.SiteMaster" %>
+﻿<% @Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="kieraWebsite.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -14,9 +14,9 @@
     <title><%: Page.Title %></title>
 
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/modernizr") %>
+        <%--Scripts.Render("~/bundles/modernizr") --%>
     </asp:PlaceHolder>
-<%--    <webopt:bundlereference runat="server" path="~/Content/css" />--%>
+    <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="Content/Site.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
     <link href="Images/favicon-16x16.png" rel="shortcut icon" type="image/x-icon" />

@@ -1,4 +1,4 @@
-﻿<%@Page Title="KU Makeup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
+﻿<% @Page Title="KU Makeup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="kieraWebsite._Default" %>
  
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  
@@ -19,16 +19,20 @@
        </div>
    </div>
     
-    <a href="#home"><div class="scroll-top">To top</div></a>
+    <a href="#home"><div class="scroll-top"><p>To top <span class="glyphicon glyphicon-arrow-up"></span></p></div></a>
 
 
      <div class="container-fluid" id="background-placeholder">
         <img src="Images/backgroundImage.png" class="img-responsive" />
         <div class="container-fluid" id="black-bg-header">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12" id="navigation-placeholder">
+                <div class="row">                    
+                  
+                                        
+                <div class="col-md-12 col-sm-12" id="navigation-placeholder">
+                     <div class="navbar-header">
                         <ul class="nav-links">
+                            <li><p><span class="glyphicon glyphicon-menu-hamburger"></span></p></li>
                             <li><img class="img-responsive" id="red-block-text-img" src="Images/ku_logo_1.png" /></li>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#services">Services</a></li>
@@ -39,6 +43,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
 
         <div class="row">
@@ -151,7 +156,7 @@
                     <h2>Pricing</h2>
 
                        <div class="row">
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-4 col-sm-4  col-xs-12">
                                 <div class="price-box">
                                     <h3>Basic Package</h3>
                                     
@@ -177,7 +182,7 @@
                             </div>
                         
 
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="price-box">
                                     <h3>Advanced Package</h3>
                                     
@@ -205,7 +210,7 @@
                             </div>
                         
                        
-                            <div class="col-md-4 col-sm-4">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
                                 <div class="price-box">
                                     <h3>Ultimate Package</h3>
                                     
@@ -300,17 +305,45 @@
         <div class="bottom-box">
             <p>Website by Josh.</p>
    
-           
-
-
-
         </div>
     </div>
-
-    <div class="map"></div>
-
+   
 
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+
+
+      <ul class="nav navbar-nav">
+          <li>Home</li>
+          <li>Services</li>
+          <li>Portfolio</li>
+          <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+      <%--<button type="button" class="btn btn-default dropdown-toggle" aria-label="Left Align" data-toggle="dropdown" id="dropdownMenu1">
+            <span class="glyphicon glyphicon-align-center" aria-hidden="true"></span>
+       </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li>
+                        <p>Link1</p>
+                    </li>
+                </ul>--%>
+    
 
                 <!-- Trigger the modal with a button -->
 

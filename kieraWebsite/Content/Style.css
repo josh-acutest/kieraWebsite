@@ -156,18 +156,22 @@ p {
 
 .scroll-top {
     position: fixed;
-    height: 50px;
-    width: 200px;
+    height: 35px;
+    width: 100px;
     background-color: #d74967;
     opacity: 0.7;
     color: #ffffff;
     z-index: 1;
     right: 5%;
     top: 90%;
-    font-size: 30px;
+    font-size: 20px;
     padding: 5px;
     border: 1px solid gray;
     border-radius: 5px;
+}
+
+.glyphicon-arrow-up {
+    font-size: 16px;
 }
 
 #ku-logo {
@@ -383,7 +387,7 @@ p {
     text-decoration: none;
     padding: 0 0 0 0;
     height: 30px;
-    width: 100%;
+    /*width: 100%;*/
     /*background-color: grey;*/
     list-style-type: none;
     margin-top: 10px;
