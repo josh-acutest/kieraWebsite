@@ -4028,7 +4028,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   min-height: 50px;
   margin-bottom: 20px;
-  border: 1px solid transparent;
 }
 
 .navbar:before,
@@ -4079,7 +4078,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;|
+    float: left;
   }
 }
 
@@ -5626,7 +5625,7 @@ padding-right: 0 !important;
 body.modal-open,
 .modal-open .navbar-fixed-top,
 .modal-open .navbar-fixed-bottom {
-  margin-right: px;
+  margin-right: 0px;
 
 }
 

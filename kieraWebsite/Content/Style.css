@@ -63,14 +63,14 @@ p {
 
 #background-placeholder {
     /*margin: 0 auto;*/
-    border-bottom: #FFB6C1 7px solid;
+    
     background-color: #23232f;
     position: relative;
     min-height: 234px;
 }
 
 
-@media screen (max-width: 340px){
+@media screen and (max-width: 450px){
     #background-placeholder img {
         visibility: hidden;
     }
@@ -131,7 +131,7 @@ p {
     top: 30%;
     min-height: 400px;
 }
- 
+
 @media screen and (max-width: 681px) {
     #ku-logo {
         float: left;
@@ -150,6 +150,14 @@ p {
     }
 }
 
+@media screen and (max-width: 450px) {
+    #strapline {
+        font-size: 16px !important;
+        color: yellow;
+
+    }
+}
+
 @media screen and (max-width: 613px) {
     #ku-logo {
         display: none;
@@ -161,24 +169,27 @@ p {
     }
 }
 
+.scroll-top:hover {
+    opacity: 1;
+}
+
 .scroll-top {
     position: fixed;
-    height: 35px;
-    width: 100px;
-    background-color: #d74967;
+    height: 30px;
+    width: 30px;
     opacity: 0.7;
-    color: #ffffff;
     z-index: 1;
     right: 5%;
     top: 90%;
     font-size: 20px;
-    padding: 5px;
-    border: 1px solid gray;
+    padding: 1px 1px 1px 6px;
+    border-top: 5px solid #3e3e3e;
     border-radius: 5px;
 }
 
 .glyphicon-arrow-up {
     font-size: 16px;
+    color: #f28c10;
 }
 
 #ku-logo {
@@ -202,6 +213,7 @@ p {
     background-color: #23232f;
     height: auto;
     text-align: center;
+    border-top: 7px solid #FFB6C1;
     border-bottom: 7px solid #FFB6C1;
     padding: 40px 0 60px 0;
 }
@@ -472,9 +484,11 @@ p {
 }*/
 
 
-.navbar-inverse {
-    text-align: center;
+#stacked-nav li {
+    display: block !important;
 }
+
+
 
 .navbar {
     background-color: none !important;

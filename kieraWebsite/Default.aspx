@@ -13,77 +13,74 @@
              </div>  
 
              <p>
-               
                <span class="red-block-text">KU Makeup</span>
              </p>    
        </div>
    </div>
-<<<<<<< HEAD
+
     
-    <a href="#home"><div class="scroll-top"><p>To top <span class="glyphicon glyphicon-arrow-up"></span></p></div></a>
-=======
-     <a href="#home"><div class="scroll-top">To top</div></a>
+    <a href="#home" title="Top">
+        <div class="scroll-top">
+            <p>
+                <span class="glyphicon glyphicon-arrow-up"></span>
+            </p>
+        </div>
+    </a>
    
->>>>>>> origin/master
 
 
      <div class="container-fluid" id="background-placeholder">
         <img src="Images/backgroundImage.png" class="img-responsive" />
         <div class="container-fluid" id="black-bg-header">
-            <div class="container">
-<<<<<<< HEAD
-                <div class="row">                    
-                  
-                                        
-                <div class="col-md-12 col-sm-12" id="navigation-placeholder">
-                     <div class="navbar-header">
-=======
-                <div class="row">
-    
-                    <!-- NAVIGATION --> 
-                    
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
+            <nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header navbar-static-top">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="#home">Home</a></li>
+        <li><a href="#services">Service</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+         
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          
+        </div>
+   
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+          
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>      
+                                        
+        <%--        
+        <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
-       
-      </ul>
-      
-     
-     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+ 
+      </ul>           --%>         
                     
                     
                     
                     
                     
                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                                  <%--  <div class="col-md-12 col-sm-12" id="navigation-placeholder">
->>>>>>> origin/master
+             <%--  <div class="col-md-12 col-sm-12" id="navigation-placeholder">
                         <ul class="nav-links">
                             <li><p><span class="glyphicon glyphicon-menu-hamburger"></span></p></li>
                             <li><img class="img-responsive" id="red-block-text-img" src="Images/ku_logo_1.png" /></li>
@@ -94,9 +91,9 @@
                         </ul>
                     </div>--%>
                 </div>
-            </div>
+           <%-- </div>
         </div>
-    </div>
+    </div>--%>
 
 
         <div class="row">
@@ -129,7 +126,7 @@
                 <h3>What do we do?</h3>
         
           <div class="row">
-            <div class="col-md-4 col-sm-4"> 
+            <div class="col-md-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/ku-image2.png" />
                     <h4>Decide on your masterpiece</h4>
@@ -139,7 +136,7 @@
             </div>
             
                 
-            <div class="col-md-4 col-sm-4"> 
+            <div class="col-md-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/model_image_1.png" />
                     <h4>Complete your makeover</h4>
@@ -148,7 +145,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-4"> 
+            <div class="col-md-4"> 
                 <div class="services-box">
                     <img class="img-responsive" src="Images/ku-image3.png" />
                     <h4>Review the service</h4>
@@ -360,56 +357,32 @@
    
         </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
    
-
-
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-
-
-
-      <ul class="nav navbar-nav">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>Contact</li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-    <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
-       
-      </ul>
-             
-     
-     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-
-
-
 
 
 
